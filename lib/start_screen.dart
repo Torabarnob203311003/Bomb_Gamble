@@ -4,6 +4,27 @@ class StartScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: Scaffold(
+        body: Container(
+          width: double.infinity,
+          decoration: BoxDecoration(
+
+            gradient: LinearGradient(colors: [
+              Color.fromARGB(65, 65, 5, 258),
+              Color.fromARGB(326, 178, 4, 225),
+             
+            ],
+                begin: Alignment.topLeft,
+                end: Alignment.topRight,
+            )
+          ),
+        ),
+      ),
+
+
+    );
+
   }
 }
