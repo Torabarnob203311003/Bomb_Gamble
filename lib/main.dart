@@ -1,6 +1,6 @@
-import 'package:bomb_gambler/start_screen.dart';
+import 'package:bomb_gambler/Bomb_app.dart';
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const StartScreen());
+  runApp(const BombApp());
 }

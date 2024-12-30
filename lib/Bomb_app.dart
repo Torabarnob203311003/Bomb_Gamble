@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-class StartScreen extends StatelessWidget {
-  const StartScreen({super.key});
+class BombApp extends StatelessWidget {
+  const BombApp({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -9,7 +9,7 @@ class StartScreen extends StatelessWidget {
       home: Scaffold(
         body: Container(
           width: double.infinity,
-          decoration: BoxDecoration(
+          decoration: const BoxDecoration(
 
             gradient: LinearGradient(colors: [
               Color.fromARGB(65, 65, 5, 258),
@@ -19,7 +19,10 @@ class StartScreen extends StatelessWidget {
                 begin: Alignment.topLeft,
                 end: Alignment.topRight,
             )
+
           ),
+
+
         ),
       ),
 
